@@ -1,11 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
     <title>Cadastro</title>
-    <meta charset="UTF-8">
     <link href="estilo/estilo_login_cadastro.css" rel="stylesheet">
-</head>
-<body style="background: linear-gradient(to right, salmon, crimson);">
-    
-</body>
+  </head>
+  <body>
+    <div class="meio quadrado">
+      <h2>Cadastro</h2>
+      <form method="POST" action="/cadastro">
+        <div class="center">
+          <input type="text" name="nome" placeholder="Nome completo" required />
+        </div>
+        <div class="center">
+          <input type="text" name="login" placeholder="Usuário" required />
+        </div>
+        <div class="center">
+          <input type="password" name="senha" placeholder="Senha" required />
+        </div>
+        <div><input type="date" name="nascimento" required /></div>
+        <button type="submit">Cadastrar</button>
+      </form>
+    </div>
+  </body>
 </html>

@@ -1,19 +1,17 @@
 {
+  "dependencies": {
+    "colors": "^1.4.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  },
   "name": "servidor_lab",
   "version": "1.0.0",
   "description": "Meu servidor",
   "main": "servidor.js",
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Kat-Krich/LAB_1.git"
-  },
   "author": "Katarina Krich",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Kat-Krich/LAB_1/issues"
-  },
-  "homepage": "https://github.com/Kat-Krich/LAB_1#readme"
+  "license": "ISC"
 }
